@@ -25,7 +25,8 @@
   }
   #profile,
   .section-container {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
   .arrow {
     display: none;
@@ -36,11 +37,6 @@
   }
   section {
     margin: 0 5%;
-  }
-  #profile {
-    flex-direction: column;
-    height: auto;
-    gap: 2rem;
   }
   .profile-pic {
     width: 300px;
@@ -77,7 +73,6 @@
     flex-direction: column;
     height: auto;
     margin-bottom: 0;
-    gap: 2rem;
   }
   article {
     font-size: 1rem;

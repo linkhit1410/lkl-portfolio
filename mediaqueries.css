@@ -45,6 +45,16 @@
   .about-containers {
     margin-top: 0;
   }
+  #tagline-section {
+    height: auto;
+    padding: 1.5rem 0;
+  }
+  .tagline-container {
+    padding: 1rem 2rem;
+  }
+  .tagline-text {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {

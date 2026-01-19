@@ -449,19 +449,19 @@ footer p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 30vh;
+  height: 15vh;
   background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 248, 255, 0.95));
-  margin: 3rem 0;
-  border-radius: 1rem;
+  margin: 0;
+  padding: 2rem 0;
 }
 
 .tagline-container {
   text-align: center;
-  padding: 3rem;
+  padding: 1rem 3rem;
 }
 
 .tagline-text {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: #333;
   letter-spacing: 0.05em;

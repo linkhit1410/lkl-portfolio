@@ -37,6 +37,17 @@
   section {
     margin: 0 5%;
   }
+  #profile {
+    flex-direction: column;
+    height: auto;
+    gap: 2rem;
+  }
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
   .section__pic-container {
     width: 275px;
     height: 275px;
@@ -63,8 +74,10 @@
     height: 40vh;
   }
   #profile {
-    height: 83vh;
+    flex-direction: column;
+    height: auto;
     margin-bottom: 0;
+    gap: 2rem;
   }
   article {
     font-size: 1rem;

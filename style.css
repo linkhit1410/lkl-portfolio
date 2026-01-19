@@ -442,3 +442,28 @@ footer {
 footer p {
   text-align: center;
 }
+
+/* TAGLINE SECTION */
+
+#tagline-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(240, 248, 255, 0.95));
+  margin: 3rem 0;
+  border-radius: 1rem;
+}
+
+.tagline-container {
+  text-align: center;
+  padding: 3rem;
+}
+
+.tagline-text {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: #333;
+  letter-spacing: 0.05em;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}

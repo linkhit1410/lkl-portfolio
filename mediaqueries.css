@@ -25,7 +25,7 @@
   }
   
    #profile {
-    gap: 1.5rem; /* reduce gap on smaller screens */
+    gap: 2rem; /* reduce gap on smaller screens */
     flex-direction: row; /* ensure it stays horizontal */
   }
   .section-container {

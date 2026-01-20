@@ -69,6 +69,11 @@
   footer {
     height: 40vh;
   }
+
+  #about{
+    height: fit-content;
+  }
+
   #profile {
     height: 83vh;
     margin-bottom: 0;

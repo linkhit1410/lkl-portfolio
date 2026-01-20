@@ -23,7 +23,11 @@
   .experience-details-container {
     margin-top: 2rem;
   }
-  #profile,
+  
+   #profile {
+    gap: 2rem; /* reduce gap on smaller screens */
+    flex-direction: row; /* ensure it stays horizontal */
+  }
   .section-container {
     display: block;
   }

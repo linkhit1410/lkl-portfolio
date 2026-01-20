@@ -27,6 +27,8 @@
    #profile {
     gap: 2rem; /* reduce gap on smaller screens */
     flex-direction: row; /* ensure it stays horizontal */
+    align-items: center; /* center items vertically */
+    justify-content: center; /* center items horizontally */
   }
   .section-container {
     display: block;
@@ -42,9 +44,10 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 2rem;
+    flex-shrink: 0; /* prevent shrinking */
   }
   .about-containers {
     margin-top: 0;

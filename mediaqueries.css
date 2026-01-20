@@ -72,10 +72,11 @@
   #profile {
     height: 83vh;
     margin-bottom: 0;
-    gap: 1.5rem;
+    gap: 1rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 8vh;
   }
   article {
     font-size: 1rem;

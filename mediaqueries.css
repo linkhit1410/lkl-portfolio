@@ -117,7 +117,6 @@
     height: 150px;
     flex-shrink: 0;
     margin: 0 auto;
-    height: fit-content;
   }
   .section__text__p2 {
     font-size: 1.25rem;
@@ -131,6 +130,7 @@
   #tagline-section {
     height: auto;
     padding: 1rem 0;
+    height: fit-content;
   }
   .tagline-container {
     padding: 1rem 1.5rem;

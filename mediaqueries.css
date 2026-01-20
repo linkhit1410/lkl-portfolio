@@ -25,7 +25,7 @@
   }
   
    #profile {
-    gap: 2rem; /* reduce gap on smaller screens */
+    gap: 1.5rem; /* reduce gap on smaller screens */
     flex-direction: row; /* ensure it stays horizontal */
   }
   .section-container {
@@ -42,9 +42,9 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 275px;
-    height: 275px;
-    margin: 0 auto 2rem;
+    width: 200px;
+    height: 200px;
+    margin: 0;
   }
   .about-containers {
     margin-top: 0;

@@ -42,9 +42,9 @@
     margin: 0 5%;
   }
   .section__pic-container {
-    width: 200px;
-    height: 200px;
-    margin: 0;
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
   }
   .about-containers {
     margin-top: 0;
